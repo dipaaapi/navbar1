@@ -2,13 +2,64 @@ body {
 	border: 0;
 	margin: 0;
 }
+.p1 {
+    padding: 10px;
+}
+.imgback {
+    padding: 20px;
+    background-image: linear-gradient(white, blue);
+}
+.profile-img {
+    width: 20vw;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+footer {
+    background-color: rgb(0,0,0,0.9);
+    padding: 10px 2vw;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    color: #f1f1f1;
+    display: inline-flex;
+}
+.footer-ul {
+    padding: 0;
+}
+.footer-ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+.footer-ul li a {
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+.f1, .f2, .f3 {
+    display: table-caption;
+    padding: 10px;
+    width: 30vw;
+
+}
+.subject, .email, .textarea {
+    width: -webkit-fill-available;
+    padding: 10px;
+    border: 0px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
 .content {
 	display: inherit;
     height: 200vh;
     top: 10vh;
     position: absolute;
     z-index: -1;
-    padding: 10px;
+    padding: 0;
+    margin: 0;
 }
 .para {
 	text-align: justify;
@@ -22,7 +73,7 @@ body {
 	display: inline-block;
 	width: 50%;
 }
-ul {
+.right-ul {
 	display: inherit;
     list-style: none;
     position: absolute;
@@ -54,6 +105,7 @@ ul {
     font-size: large;
 }
 .right-menu {
+    filter: drop-shadow(0px -10px 7px black);
 	width: 25vw;
     height: 100vh;
     display: none;
@@ -62,7 +114,7 @@ ul {
     background-color: darkblue;
     top: 0;
 }
-ul li {
+.right-ul li {
 	padding: 2.5%;
     text-transform: uppercase;
     font-family: sans-serif;
@@ -70,11 +122,11 @@ ul li {
     text-align: start;
     margin-left: 10px;
 }
-ul li a {
+.right-ul li a {
 	color: white;
     text-decoration: none;
 }
-ul li:hover {
+.right-ul li:hover, .footer-ul li:hover {
     filter: drop-shadow(0px 0px 5px black);
     transition: .7s;
     background-image: linear-gradient(to right, #e40505 , transparent);
