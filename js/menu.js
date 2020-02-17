@@ -2,6 +2,8 @@ function openNav() {
   document.getElementById("right-menu").style.display = "inherit";
   document.getElementById("right-menu").style.transition = ".8s";
   document.getElementById("content").style.marginRight = "25vw";
+  document.getElementById("p1-profile").style.marginRight = "25vw";
+  document.getElementById("p2-profile").style.marginRight = "25vw";
   document.getElementById("content").style.position = "absolute";
   document.getElementById("f2").style.display = "none";
   document.getElementById("footer").style.width = "-webkit-fill-available";
