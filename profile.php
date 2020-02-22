@@ -3,9 +3,9 @@
 	<?php include ('navbar.php') ?>
 	<div class="content-profile" id="content">
 		<div id="p1-profile" class="p1-profile">
-			<h1 class="content-title">John Edward "Janjan" M. Cabrera</h1>
-			<a class="img-a" href="#">
-				<div class="imgback">
+			<h1 class="content-title">Profile</h1>
+			<a id="img-a" class="img-a" href="#">
+				<div id="imgback" class="imgback">
 					<img class="profile-img" src="img/john.jpg" alt="my image">
 				</div>
 			</a>
@@ -13,7 +13,7 @@
 		<div id="p2-profile" class="p2-profile">
 			<h3 class="skills">Skills</h3>
 			<ul class="skills-ul">
-				<marquee style="width: 100vw;" behavior="scroll" direction="right" scrollamount="50">
+				<marquee style="width: 100vw;" behavior="scroll" direction="left" scrollamount="20">
 				<li class="skills1"><a href="" class="img-skills1"><img src="img/html.png" alt="" class="img-skills1"></a></li>
 				<li class="skills2"><a href="" class="img-skills2"><img src="img/css.png" alt="" class="img-skills2"></a></li>
 				<li class="skills3"><a href="" class="img-skills3"><img src="img/bootstrap.png" alt="" class="img-skills3"></a></li>
@@ -31,8 +31,8 @@
 				</marquee>
 			</ul>
 		</div>
-		<?php include ('footer.php') ?>
 	</div>
+	<?php include ('footer.php') ?>
 	<script type="text/javascript" src="js/menu.js"></script>
 </body>
 </html>

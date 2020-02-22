@@ -1,5 +1,5 @@
 <div class="nav">
-	<p class="title">title here</p>
+	<p class="title">John Edward M. Cabrera</p>
 	<div class="div-menu">
 		<button class="menu" onclick="openNav()"><i class="fas fa-bars"></i></button>
 	</div>
